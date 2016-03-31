@@ -37,7 +37,7 @@ int main() {
 				if(v[j].first=='B' && visited[j]==false)
 				break;
 			}
-		   //cout<<"j="<<j<<endl;
+		        //cout<<"j="<<j<<endl;
 			if(i==n && j==n)
 			 break;
 			if(i<j)
@@ -66,8 +66,8 @@ int main() {
 				else
 				 visited[j]=true; 
 			}
-     	 //cout<<"posOrange="<<posOrange<<endl;
-     	 //cout<<"posBlue="<<posBlue<<endl;
+     	          //cout<<"posOrange="<<posOrange<<endl;
+     	          //cout<<"posBlue="<<posBlue<<endl;
 		}
 		cout<<"Case #"<<q<<": "<<k-1<<endl;
 		
